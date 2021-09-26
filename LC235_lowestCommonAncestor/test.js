@@ -72,3 +72,6 @@ test("Returns lowest common ancestor.", () => {
   expect(lowestCommonAncestor(BST.root, node3, node10)).toEqual(BST.root);
   expect(lowestCommonAncestor(BST.root, node10, node14)).toEqual(node10);
 });
+
+
+
